@@ -1,5 +1,5 @@
 name: Release and deploy
-
+# just work wtf?
 on:
   push:
     tags:
