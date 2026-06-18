@@ -41,7 +41,7 @@ jobs:
       - name: Trigger workflow in env repo
         uses: benc-uk/workflow-dispatch@v1
         with:
-          workflow: update-deployment.yaml
+          workflow: update-deployment.yml
           repo: andrewthcook/example-environment
           token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           ref: main
